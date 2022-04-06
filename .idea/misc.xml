@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ApplyCleanArchitectureApp/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ApplyCleanArchitectureApp/app/src/main/res/layout/home_fragment.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ApplyCleanArchitectureApp/app/src/main/res/layout/activity_main.xml" value="0.2712962962962963" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ApplyCleanArchitectureApp/app/src/main/res/layout/home_fragment.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ApplyCleanArchitectureApp/app/src/main/res/layout/tap1_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ApplyCleanArchitectureApp/app/src/main/res/layout/tap2_fragment.xml" value="0.2712962962962963" />
       </map>
     </option>
   </component>

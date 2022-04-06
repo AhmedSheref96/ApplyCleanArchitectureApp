@@ -6,4 +6,5 @@ interface NotesDataSource {
     suspend fun getNotes(): List<Note>?
     suspend fun insertNote(note: Note)
     suspend fun deleteNote(note: Note)
+    suspend fun insertNote(note: Note, id: Int)
 }

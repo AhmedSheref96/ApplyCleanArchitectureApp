@@ -9,13 +9,12 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class HomeViewModel @Inject constructor(val allCases: AllCases) : BaseViewModel() {
-
+class HomeViewModel @Inject constructor(private val allCases: AllCases) : BaseViewModel() {
     val data = MutableLiveData<List<Note>?>()
     fun getNotes() {
         viewModelScope.launch {
-            data.postValue(allCases.getNotes())
+            data.postValue(allCases.getNotes.getASCNotes())
+            allCases.insertNote.insert(Note(1, "", ""), 1)
         }
     }
-
 }
