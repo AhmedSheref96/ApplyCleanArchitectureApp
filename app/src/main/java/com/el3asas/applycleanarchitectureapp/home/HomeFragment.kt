@@ -24,6 +24,7 @@ class HomeFragment : FragmentBinding() {
             viewModel = this@HomeFragment.viewModel
             lifecycleOwner = this@HomeFragment
             executePendingBindings()
+
             val navHost =
                 childFragmentManager.findFragmentById(R.id.home_nav_host) as NavHostFragment
             val navController = navHost.navController
